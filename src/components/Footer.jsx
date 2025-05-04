@@ -4,7 +4,7 @@ export const Footer = () => (
 			Mírate la <a target="_blank" href="https://4geeks.com/docs/start/start-react-advanced-project">documentación,</a> anda.
 		</p>
 		<p>
-			Hecho con AMOR <i className="fa-solid fa-heart text-danger" /> y DOLOR <i class="fa-solid fa-ghost"></i> por {" "}
+			Hecho con AMOR <i className="fa-solid fa-heart text-danger" /> y DOLOR <i className="fa-solid fa-ghost"></i> por {" "}
 			<a href="https://linktr.ee/sanxworkshop">Sanx</a>
 		</p>
 	</footer>
