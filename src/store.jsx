@@ -73,7 +73,7 @@ export const ContactProvider = ({ children }) => {
   const createContact = async (newContact) => {
     const url = `${API_URL}/agendas/${agendaSlug}/contacts`;
     try {
-      const response = await fetch(url, `${API_URL}/agendas/${agendaSlug}/contacts`, {
+      const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
