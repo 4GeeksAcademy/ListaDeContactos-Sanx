@@ -2,10 +2,10 @@
   background-color: #ebeedd;
   color: #2f4b4e;
   padding: 20px;
-  margin: 30px auto; /* Aumentamos un poco el margen superior e inferior para separarlo */
-  max-width: 450px; /* Reducimos el ancho máximo del formulario */
-  border-radius: 0; /* Eliminamos los bordes redondeados del formulario */
-  box-shadow: px 7px 0 0 #2f4b4eab; /* Añadimos el box-shadow duro */
+  margin: 30px auto; 
+  max-width: 450px; 
+  border-radius: 0; 
+  box-shadow: px 7px 0 0 #2f4b4eab; 
 }
 
 .add-contact-container h2 {
@@ -30,15 +30,15 @@
 .add-contact-container input[type="email"],
 .add-contact-container textarea,
 .add-contact-container select {
-  width: calc(100% - 16px); /* Ajustamos el ancho teniendo en cuenta el padding */
+  width: calc(100% - 16px); 
   padding: 8px;
-  border: none; /* Eliminamos el borde de los campos */
-  border-radius: 0; /* Aseguramos que no haya bordes redondeados */
+  border: none;
+  border-radius: 0; 
   box-sizing: border-box;
   font-family: 'Roboto Mono', monospace;
   font-size: 1em;
   color: #2f4b4e;
-  background-color: #fff; /* Fondo blanco para los campos */
+  background-color: #fff; 
 }
 
 .add-contact-container textarea {
@@ -51,14 +51,14 @@
   color: #ebeedd;
   border: none;
   padding: 10px 15px;
-  border-radius: 0; /* Eliminamos los bordes redondeados de los botones */
+  border-radius: 0; 
   cursor: pointer;
   text-decoration: none;
   font-size: 1em;
   font-weight: bold;
   transition: background-color 0.3s ease;
   margin-right: 10px;
-  box-shadow: 0px 3px 0 0 #2f4b4eab; /* Añadimos un pequeño shadow a los botones */
+  box-shadow: 0px 3px 0 0 #2f4b4eab;
 }
 
 .add-contact-container button:hover,
@@ -74,7 +74,6 @@
   background-color: #f9b79d;
 }
 
-/* Estilos específicos para el select y el input de teléfono juntos */
 .add-contact-container > .form-group.phone-group {
   display: flex;
   align-items: center;
@@ -84,19 +83,19 @@
 .add-contact-container > .form-group.phone-group select {
   width: auto;
   flex-grow: 0;
-  border: none; /* Eliminamos el borde del select */
+  border: none;
   border-radius: 0;
   background-color: #fff;
 }
 
 .add-contact-container > .form-group.phone-group input[type="tel"] {
   flex-grow: 1;
-  border: none; /* Eliminamos el borde del input de teléfono */
+  border: none;
   border-radius: 0;
   background-color: #fff;
 }
 
-/* Estilo para el contenedor de los botones */
+
 .add-contact-container > form > .form-actions {
   margin-top: 20px;
 }
@@ -104,5 +103,5 @@
 .add-contact-container > form > .form-actions button,
 .add-contact-container > form > .form-actions a {
   display: inline-block;
-  box-shadow: 0px 3px 0 0 #2f4b4eab; /* Mantenemos el shadow en los botones */
+  box-shadow: 0px 3px 0 0 #2f4b4eab;
 }

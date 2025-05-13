@@ -94,9 +94,9 @@ body {
 }
 
 .filter-sidebar select option:focus {
-  background-color: #2bc4c0 !important; /* Usamos !important para intentar sobreescribir estilos del navegador */
-  color: #ebeedd; /* O el color de texto que prefieras */
-  outline: none; /* O el estilo de outline que prefieras */
+  background-color: #2bc4c0 !important; 
+  color: #ebeedd;
+  outline: none;
 }
 
 .filter-sidebar input[type="text"]::placeholder {
