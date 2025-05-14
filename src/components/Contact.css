@@ -120,26 +120,6 @@ body {
   align-items: flex-start; 
 }
 
-@media (max-width: 1920px) {
-  .contact-list-area {
-    grid-template-columns: repeat(3, 250px); 
-  grid-template-rows: repeat(4, 380px);
-   margin-left: 380px;
-  }
-}
-@media (max-width: 768px) {
-  .contact-list-area {
-    grid-template-columns: repeat(2, 250px); 
-  grid-template-rows: repeat(6, 380px);
-    margin-left: 150px;
-    row-gap: 10px;
-    column-gap: 10px;
-    padding: 20px;
-  }
-}
-
-
-
 .contact-list-area > .filter-sidebar {
   width: auto; 
   margin-right: auto;
